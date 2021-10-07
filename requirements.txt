@@ -1,0 +1,4 @@
+webrtcvad==2.0.10
+halo==0.0.31
+numpy==1.19.5
+scipy==1.1.0
