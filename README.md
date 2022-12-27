@@ -7,3 +7,7 @@ The annotation program use voice activity detection technology to detect speech 
 Annotation program GUI is consisting of a display area which shows normalized sentences, and 3 buttons: “Repeat”, “Invalid” and “Next”. The full description can be found in ArmSpeech’s first release paper [7]. The annotation program use voice activity detection technology to detect speech by simply distinguishing between silence and speech. This is done by using Python free “webrtcvad” module, which is a python interface to the WebRTC [11] Voice Activity Detector (VAD) [12] developed by Google. The application determines voice activity by a ratio of not null and null frames in 300 milliseconds (see figure 1). The portion of not null frames in given milliseconds must be equal to or greater than 75%.
 
 It starts to record when the volunteer starts to read the normalized text and ends recording when the speaker stops speaking. Then the application automatically stores audio frames into file in WAV format without including leading and trailing parts in the recorded audio clip.
+
+![alt text](https://github.com/Varuzhan97/Data_Annotator/blob/main/VAD.png)
+
+![alt text](https://github.com/Varuzhan97/Data_Annotator/blob/main/interface.png)
